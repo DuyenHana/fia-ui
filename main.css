@@ -218,6 +218,11 @@ textarea:focus, input:focus {
     margin-left: 20px;
 }
 
+.content-left-item-img2-icon1 {
+    width: 540px;
+    height: 300px;
+}
+
 
 .content-left-item-btn {
     background-color: #1990FF;
@@ -332,6 +337,10 @@ textarea:focus, input:focus {
 
 .event__sukien {
     color: #7B1C21;
+}
+.event__img-1 {
+    width: 550px;
+    height: 400px;
 }
 
 .event__hienthi {
@@ -752,6 +761,14 @@ textarea:focus, input:focus {
        display: none;
 
     }
+    .event {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .event__img-1 {
+        width: 393px;
+        height: 335px;
+    }
     .header__navbar {
         display: block;  
         margin-right: 6rem;    
@@ -773,17 +790,72 @@ textarea:focus, input:focus {
         margin-left: 6px;
     }
 
+    .content {
+        justify-content: normal;
+    }
+    .header {
+        margin-left: 0;
+        margin-right: 0;
+    }
     .content-left-item  {
         padding-top: none;
-        width: 736px;
-        height: 122px;
+        width: 804px;
+        /* height: 122px; */
+    }
+    .content-left-item-img2-icon1 {
+        width: 388px;
+        height: 200px;
+    }
+    .content-left-haeding {
+        font-size: 1.1rem;
+    }
+    .content-left__2 {
+        font-size: 0.9rem;
+    }
+    .section-heading {
+        margin-bottom: 0;
+        font-size: 1.5rem;
     }
     .content-right {
         display: none;
+    }
+    .sponsors__img-header {
+        padding: 4px 1px;
+        margin-right: 0;
+    }
+    .footer__nav-logo-fia {
+        margin-left: 0;
+    }
+    .footer__nav-list-logo-fia {
+        margin-left: 40px;
+    }
+    .to__unite {
+        margin-right: 44px;
+    }
+    /* tinh hinh dau tu  */
+    .Japan {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .btn__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn__month {
+        font-size: 0.8rem;
+    }
+    .btn__year {
+        font-size: 0.8rem;
     }
 }
 
 
 @media (max-width: 740px) {
-    
+    .header {
+        margin-left: 0;
+        margin-right: 0;
+    }
+ 
+        
 }    
